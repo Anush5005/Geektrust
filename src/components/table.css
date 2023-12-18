@@ -1,0 +1,97 @@
+table {
+  position: absolute;
+  top: 15%;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+table th,
+table td {
+  padding: 6px 10px;
+}
+
+table tr {
+  border: 1px solid #ccc;
+}
+
+button {
+  border: none;
+  margin: 5px;
+  background-color: #f2f2f2;
+  padding: 4px;
+}
+
+.editform {
+  border-radius: 12px;
+  background: lightblue;
+  width: 350px;
+  padding: 15px;
+  position: fixed;
+  top: 30%;
+  left: 70%;
+  z-index: 900;
+  transform: translate(-50%, -50%);
+}
+
+.editform form {
+  display: flex;
+  flex-direction: column;
+}
+
+.editform h3 {
+  text-align: center;
+}
+
+.editform label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.editform input {
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.editform-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.editform button {
+  padding: 10px 20px;
+  width: 25%;
+  font-size: 16px;
+  background: #3065c0;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .editform {
+    width: 70%;
+    padding: 6px;
+    font-size: 14px;
+  }
+
+  .editform h3 {
+    font-size: 17px;
+  }
+
+  .editform label {
+    font-size: 12px;
+  }
+
+  .editform input {
+    font-size: 12px;
+  }
+
+  .editform button {
+    font-size: 16px;
+  }
+}

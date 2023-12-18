@@ -1,0 +1,15 @@
+.inputfield {
+  display: flex;
+  width: 95%;
+  position: absolute;
+  top: 10%;
+  left: 2%;
+}
+
+@media only screen and (max-width: 768px) {
+  .inputfield {
+    flex-direction: column;
+    width: 100%;
+    left: 0;
+  }
+}
